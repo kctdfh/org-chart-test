@@ -4,40 +4,22 @@
   </head>
 
   <body>
-    <a
-      target="_blank"
-      href="https://github.com/bumbeishvili/d3-organization-chart"
-    >
-      <img
-        style="position: fixed; top: 0; right: 0; border: 0; z-index: 2"
-        width="149"
-        height="149"
-        src="https://bumbeishvili.github.io/d3-tooltip/forkme.png"
-        alt="Fork me on GitHub"
-      />
-    </a>
-
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@2.6.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-flextree@2.1.2/build/d3-flextree.js"></script>
     <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
-
-    <div
-      class="chart-container"
-      style="height: 1200px; background-color: #fffeff"
-    ></div>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="output.css">
+    <script src="utils.js"></script>
+    <div class="chart-container" style="height: 1200px; background-color: #fffeff" ></div>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
     <script>
-        const notManagersCSV() = fetch(myRequest)
+        /* const notManagersCSV() = fetch(myRequest)
         .then((response) => response.text())
         .then((text) => {
           myArticle.innerHTML = text;
         });
-
+ */
 
 
 
