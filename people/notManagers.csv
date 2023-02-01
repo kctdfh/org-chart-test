@@ -1,0 +1,26 @@
+id,avatar,name,position,type,color,parentId
+T-1,,Executive Management,,team,gray,
+T-2,,Sales and Marketing,,team,red,0-1
+T-3,,Procurement Associates,,team,yellow,0-2
+T-4,,Account Managers,,team,green,0-2
+M-1,https://api.dicebear.com/5.x/initials/svg?seed=Devon Lane,Devon Lane,Systems Analyst,,,0-1
+M-2,https://api.dicebear.com/5.x/initials/svg?seed=Jacob Jones,Jacob Jones,Network Technician,,,0-1
+M-3,https://api.dicebear.com/5.x/initials/svg?seed=Dianne Russell,Dianne Russell,Account Representative,,,0-1
+M-4,https://api.dicebear.com/5.x/initials/svg?seed=Savannah Nguyen,Savannah Nguyen,System Administrator,,,0-1
+M-5,https://api.dicebear.com/5.x/initials/svg?seed=Robert Fox,Robert Fox,Salesforce Administrator,,,0-1
+M-6,https://api.dicebear.com/5.x/initials/svg?seed=Arlene McCoy,Arlene McCoy,Entry Level Data Analyst,,,0-1
+M-7,https://api.dicebear.com/5.x/initials/svg?seed=Leslie Alexander,Leslie Alexander,Copywriter,,,0-2
+M-8,https://api.dicebear.com/5.x/initials/svg?seed=Cody Fisher,Cody Fisher,IT Technician,,,0-2
+M-9,https://api.dicebear.com/5.x/initials/svg?seed=Leon Moore,Leon Moore,Systems Analyst,,,T-3
+M-10,https://api.dicebear.com/5.x/initials/svg?seed=Russell Burgess,Russell Burgess,Network Technician,,,T-3
+M-11,https://api.dicebear.com/5.x/initials/svg?seed=Gussie Harvey,Gussie Harvey,Account Representative,,,T-3
+M-12,https://api.dicebear.com/5.x/initials/svg?seed=Alma Burke,Alma Burke,System Administrator,,,T-3
+M-13,https://api.dicebear.com/5.x/initials/svg?seed=Nancy Gross,Nancy Gross,Salesforce Administrator,,,T-3
+M-14,https://api.dicebear.com/5.x/initials/svg?seed=Belle Barnes,Belle Barnes,Entry Level Data Analyst,,,T-3
+M-15,https://api.dicebear.com/5.x/initials/svg?seed=Marvin Murphy,Marvin Murphy,Copywriter,,,T-3
+M-16,https://api.dicebear.com/5.x/initials/svg?seed=Caleb Hall,Caleb Hall,IT Technician,,,T-3
+M-17,https://api.dicebear.com/5.x/initials/svg?seed=Donald Higgins,Donald Higgins,Systems Analyst,,,T-3
+M-18,https://api.dicebear.com/5.x/initials/svg?seed=Ryan Elliott,Ryan Elliott,Network Technician,,,T-4
+M-19,https://api.dicebear.com/5.x/initials/svg?seed=Frederick Cole,Frederick Cole,Account Representative,,,T-4
+M-20,https://api.dicebear.com/5.x/initials/svg?seed=Carl Alexander,Carl Alexander,System Administrator,,,T-4
+M-21,https://api.dicebear.com/5.x/initials/svg?seed=Carrie Ball,Carrie Ball,Salesforce Administrator,,,T-4

@@ -8,26 +8,14 @@
     <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@2.6.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-flextree@2.1.2/build/d3-flextree.js"></script>
     <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+    <script src="https://unpkg.com/papaparse@5.3.2/papaparse.min.js" ></script>
     <link rel="stylesheet" href="output.css">
     <script src="utils.js"></script>
     <div class="chart-container" style="height: 1200px; background-color: #fffeff" ></div>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
-        /* const notManagersCSV() = fetch(myRequest)
-        .then((response) => response.text())
-        .then((text) => {
-          myArticle.innerHTML = text;
-        });
- */
-
-
-
-
-
-          var chart;
-          // https://raw.githubusercontent.com/kctdfh/sample-data/main/org_manager.csv
-          // https://raw.githubusercontent.com/kctdfh/sample-data/main/org_notManager.csv
           d3.csv(
             'https://raw.githubusercontent.com/bumbeishvili/sample-data/main/org.csv'
           ).then((dataFlattened) => {
@@ -94,13 +82,4 @@
           });
     </script>
   </body>
-  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-  <script>
-    kofiWidgetOverlay.draw('bumbeishvili', {
-      type: 'floating-chat',
-      'floating-chat.donateButton.text': 'Tip Us',
-      'floating-chat.donateButton.background-color': '#00b9fe',
-      'floating-chat.donateButton.text-color': '#fff',
-    });
-  </script>
 </html>

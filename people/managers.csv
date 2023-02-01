@@ -1,0 +1,12 @@
+id,avatar,name,position,teamId
+MM-1,https://api.dicebear.com/5.x/initials/svg?seed=Jenny Clark,Jenny Clark,Chief executive officer,T-1
+MM-2,https://api.dicebear.com/5.x/initials/svg?seed=Guy Hawkins,Guy Hawkins,Information Security Analyst,T-1
+MM-3,https://api.dicebear.com/5.x/initials/svg?seed=Courtney Henry,Courtney Henry,Systems Analyst,T-2
+MM-4,https://api.dicebear.com/5.x/initials/svg?seed=Jerome Bell,Jerome Bell,Promotions Coordinator,T-2
+MM-5,https://api.dicebear.com/5.x/initials/svg?seed=Jacob Thomas,Jacob Thomas,Information Security Analyst,T-3
+MM-6,https://api.dicebear.com/5.x/initials/svg?seed=Stanley Perkins,Stanley Perkins,Systems Analyst,T-3
+MM-7,https://api.dicebear.com/5.x/initials/svg?seed=Margaret Greer,Margaret Greer,Promotions Coordinator,T-3
+MM-8,https://api.dicebear.com/5.x/initials/svg?seed=Elnora West,Elnora West,Information Security Analyst,T-3
+MM-9,https://api.dicebear.com/5.x/initials/svg?seed=Dustin Vega,Dustin Vega,Systems Analyst,T-4
+MM-10,https://api.dicebear.com/5.x/initials/svg?seed=Isabel McDonald,Isabel McDonald,Promotions Coordinator,T-4
+MM-11,https://api.dicebear.com/5.x/initials/svg?seed=Bobby Miles,Bobby Miles,Information Security Analyst,T-4
