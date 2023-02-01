@@ -25,7 +25,16 @@
 outline-2 outline-transparent items-start p-0 teamCardWrapper w-[285px] h-auto rounded-[4px] shadow-md bg-white">
             <div class="w-full teamColor h-[6px] rounded-t-[4px] bg-red-400"></div>
             <div class="flex flex-col items-start flex-none flex-grow-0 w-full gap-2 p-2 teamContent">
-                <div class="flex flex-row items-start nameAndAction gap-[1px] min-w-full">
+                <div class="flex flex-row justify-center items-center nameAndAction gap-[1px] min-w-full">
+                    <div class="mr-1 teamIcon">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.25 6V5.75C11.25 4.23122 10.0188 3 8.5 3V3C6.98122 3 5.75 4.23122 5.75 5.75V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <mask id="path-2-inside-1_124_3053" fill="white">
+                          <rect x="3.5" y="6" width="10" height="8" rx="0.75" />
+                        </mask>
+                        <rect x="3.5" y="6" width="10" height="8" rx="0.75" stroke="currentColor" stroke-width="3" mask="url(#path-2-inside-1_124_3053)" />
+                      </svg>
+                    </div>
                     <span data-name="teamName"
                         class="flex-grow text-sm font-medium leading-5 text-black teamName overflow-auto overflow-ellipsis whitespace-nowrap max-w-[248px] decoration-white">Sales
                         & Marketing</span>
@@ -107,7 +116,8 @@ outline-2 outline-transparent items-start p-0 teamCardWrapper w-[285px] h-auto r
                 </div>
                 <button
                     class="group bg-white w-full p-[6px] border box-border flex flex-row items-center justify-center gap-1 rounded-[4px] border-gray-300 hover:border-gray-600">
-                    <div class="transition-transform rotate-180 w-[12px] h-[12px] text-gray-600 group-hover:text-gray-800 flex place-content-center place-items-center">
+                    <div
+                        class="transition-transform rotate-180 w-[12px] h-[12px] text-gray-600 group-hover:text-gray-800 flex place-content-center place-items-center">
                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M0.646447 5.30753C0.841709 5.50279 1.15829 5.50279 1.35355 5.30753L5 1.66108L8.64645 5.30753C8.84171 5.50279 9.15829 5.50279 9.35355 5.30753C9.54882 5.11226 9.54882 4.79568 9.35355 4.60042L5.51069 0.757555C5.22864 0.47551 4.77136 0.475508 4.48931 0.757554L0.646447 4.60042C0.451184 4.79568 0.451184 5.11226 0.646447 5.30753Z"
@@ -117,58 +127,95 @@ outline-2 outline-transparent items-start p-0 teamCardWrapper w-[285px] h-auto r
                     <span class="text-sm font-medium leading-5 text-gray-600 group-hover:text-gray-800">18</span>
                 </button>
             </div>
-            
-            
+
+
         </div>
         <!-- ANCHOR Member -->
-        <div class="bg-white shadow-md outline flex flex-row items-start justify-end py-2 pl-2 pr-1 outline-2 outline-transparent rounded-[4px] manager w-[269px] h-[71px]">
-          <div class="flex flex-row items-center w-[237px] gap-3 managerContent h-full">
-            <img class="w-[55px] h-[55px] rounded-[4px]" src="https://api.dicebear.com/5.x/initials/svg?seed=Courtney Henry" alt="">
-            <div class="flex flex-col items-start justify-center flex-grow overflow-auto overflow-ellipsis whitespace-nowrap">
-              <span class="text-sm font-medium leading-5 text-black managerName">Courtney Henry</span>
-              <span class="overflow-auto text-xs font-normal leading-4 text-gray-500 managerRole overflow-ellipsis whitespace-nowrap">System
-                Analyst</span>
+        <div
+            class="bg-white shadow-md outline flex flex-row items-start justify-end py-2 pl-2 pr-1 outline-2 outline-transparent rounded-[4px] manager w-[269px] h-[71px]">
+            <div class="flex flex-row items-center w-[237px] gap-3 managerContent h-full">
+                <img class="w-[55px] h-[55px] rounded-[4px]"
+                    src="https://api.dicebear.com/5.x/initials/svg?seed=Courtney Henry" alt="">
+                <div
+                    class="flex flex-col items-start justify-center flex-grow overflow-auto overflow-ellipsis whitespace-nowrap">
+                    <span class="text-sm font-medium leading-5 text-black managerName">Courtney Henry</span>
+                    <span
+                        class="overflow-auto text-xs font-normal leading-4 text-gray-500 managerRole overflow-ellipsis whitespace-nowrap">System
+                        Analyst</span>
+                </div>
             </div>
-          </div>
-          <button class="flex flex-row items-center justify-center flex-none flex-grow-0 w-[20px] h-[20px] bg-transparent hover:bg-blue-50 text-gray-600 hover:text-gray-900">
-            <svg data-name="more" data-id="" width="3" height="10" viewBox="0 0 3 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2.50012 1C2.50012 1.55228 2.05241 2 1.50012 2C0.947837 2 0.500122 1.55228 0.500122 1C0.500122 0.447715 0.947837 0 1.50012 0C2.05241 0 2.50012 0.447715 2.50012 1Z" fill="#233043" />
-              <path d="M2.5 5C2.5 5.55228 2.05228 6 1.5 6C0.947715 6 0.5 5.55228 0.5 5C0.5 4.44772 0.947715 4 1.5 4C2.05228 4 2.5 4.44772 2.5 5Z" fill="#233043" />
-              <path d="M2.5 9C2.5 9.55229 2.05228 10 1.5 10C0.947715 10 0.5 9.55229 0.5 9C0.5 8.44771 0.947715 8 1.5 8C2.05228 8 2.5 8.44771 2.5 9Z" fill="#233043" />
-            </svg>
-          </button>
+            <button
+                class="flex flex-row items-center justify-center flex-none flex-grow-0 w-[20px] h-[20px] bg-transparent hover:bg-blue-50 text-gray-600 hover:text-gray-900">
+                <svg data-name="more" data-id="" width="3" height="10" viewBox="0 0 3 10" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M2.50012 1C2.50012 1.55228 2.05241 2 1.50012 2C0.947837 2 0.500122 1.55228 0.500122 1C0.500122 0.447715 0.947837 0 1.50012 0C2.05241 0 2.50012 0.447715 2.50012 1Z"
+                        fill="#233043" />
+                    <path
+                        d="M2.5 5C2.5 5.55228 2.05228 6 1.5 6C0.947715 6 0.5 5.55228 0.5 5C0.5 4.44772 0.947715 4 1.5 4C2.05228 4 2.5 4.44772 2.5 5Z"
+                        fill="#233043" />
+                    <path
+                        d="M2.5 9C2.5 9.55229 2.05228 10 1.5 10C0.947715 10 0.5 9.55229 0.5 9C0.5 8.44771 0.947715 8 1.5 8C2.05228 8 2.5 8.44771 2.5 9Z"
+                        fill="#233043" />
+                </svg>
+            </button>
         </div>
         <!-- ANCHOR Team Collapsed -->
         <div class="flex flex-col outline
 outline-2 outline-transparent items-start p-0 teamCardWrapper w-[285px] h-[71px] rounded-[4px] shadow-md bg-white">
-          <div class="w-full teamColor min-h-[6px] rounded-t-[4px] bg-red-400"></div>
-          <div class="flex flex-col flex-none flex-grow-0 flex-shrink w-full px-2 pb-2 pt-[6px] teamContent gap-[6px]">
-            <div class="flex flex-row items-start min-w-full nameAndAction">
-              <span data-name="teamName" class="flex-grow text-sm font-medium leading-5 text-black teamName overflow-auto overflow-ellipsis whitespace-nowrap max-w-[248px] decoration-white">Sales
-                & Marketing</span>
-              <button class="flex flex-row items-center justify-center flex-none flex-grow-0 w-[20px] h-[20px] bg-transparent hover:bg-blue-50 text-gray-600 hover:text-gray-900">
-                <svg data-name="more" data-id="" width="3" height="10" viewBox="0 0 3 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2.50012 1C2.50012 1.55228 2.05241 2 1.50012 2C0.947837 2 0.500122 1.55228 0.500122 1C0.500122 0.447715 0.947837 0 1.50012 0C2.05241 0 2.50012 0.447715 2.50012 1Z" fill="#233043" />
-                  <path d="M2.5 5C2.5 5.55228 2.05228 6 1.5 6C0.947715 6 0.5 5.55228 0.5 5C0.5 4.44772 0.947715 4 1.5 4C2.05228 4 2.5 4.44772 2.5 5Z" fill="#233043" />
-                  <path d="M2.5 9C2.5 9.55229 2.05228 10 1.5 10C0.947715 10 0.5 9.55229 0.5 9C0.5 8.44771 0.947715 8 1.5 8C2.05228 8 2.5 8.44771 2.5 9Z" fill="#233043" />
-                </svg>
-              </button>
-            </div>
-            <div class="flex flex-row w-full h-6 inlineManager place-content-start">
-                <div class="flex flex-row w-full avatarStack space-x-[-7px] group">
-                    <img class="w-6 h-6 rounded-sm outline outline-2 first:outline-transparent outline-white" src="https://api.dicebear.com/5.x/initials/svg?seed=Courtney Palermo" alt="">
-                    <img class="w-6 h-6 rounded-sm outline outline-2 first:outline-transparent outline-white" src="https://api.dicebear.com/5.x/initials/svg?seed=Sid Mead" alt="">
+            <div class="w-full teamColor min-h-[6px] rounded-t-[4px] bg-red-400"></div>
+            <div class="flex flex-col flex-none flex-grow-0 flex-shrink w-full px-2 pb-2 pt-[6px] teamContent gap-[6px]">
+                <div class="flex flex-row items-center justify-center min-w-full nameAndAction">
+                    <div class="mr-1 teamIcon">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.25 6V5.75C11.25 4.23122 10.0188 3 8.5 3V3C6.98122 3 5.75 4.23122 5.75 5.75V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <mask id="path-2-inside-1_124_3053" fill="white">
+                          <rect x="3.5" y="6" width="10" height="8" rx="0.75" />
+                        </mask>
+                        <rect x="3.5" y="6" width="10" height="8" rx="0.75" stroke="currentColor" stroke-width="3" mask="url(#path-2-inside-1_124_3053)" />
+                      </svg>
+                    </div>
+                    <span data-name="teamName"
+                        class="flex-grow text-sm font-medium leading-5 text-black teamName overflow-auto overflow-ellipsis whitespace-nowrap max-w-[248px] decoration-white">Sales
+                        & Marketing</span>
+                    <button
+                        class="flex flex-row items-center justify-center flex-none flex-grow-0 w-[20px] h-[20px] bg-transparent hover:bg-blue-50 text-gray-600 hover:text-gray-900">
+                        <svg data-name="more" data-id="" width="3" height="10" viewBox="0 0 3 10" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.50012 1C2.50012 1.55228 2.05241 2 1.50012 2C0.947837 2 0.500122 1.55228 0.500122 1C0.500122 0.447715 0.947837 0 1.50012 0C2.05241 0 2.50012 0.447715 2.50012 1Z"
+                                fill="#233043" />
+                            <path
+                                d="M2.5 5C2.5 5.55228 2.05228 6 1.5 6C0.947715 6 0.5 5.55228 0.5 5C0.5 4.44772 0.947715 4 1.5 4C2.05228 4 2.5 4.44772 2.5 5Z"
+                                fill="#233043" />
+                            <path
+                                d="M2.5 9C2.5 9.55229 2.05228 10 1.5 10C0.947715 10 0.5 9.55229 0.5 9C0.5 8.44771 0.947715 8 1.5 8C2.05228 8 2.5 8.44771 2.5 9Z"
+                                fill="#233043" />
+                        </svg>
+                    </button>
                 </div>
-                <button class="transition-colors bg-white group w-fit py-[4px] px-3 h-6 border box-border flex flex-row items-center justify-center gap-1 rounded-[3px] border-gray-300 hover:border-gray-600">
-                  <div class="transition-transform rotate-180 w-[12px] h-[12px] text-gray-600 group-hover:text-gray-800 flex place-content-center place-items-center">
-                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0.646447 5.30753C0.841709 5.50279 1.15829 5.50279 1.35355 5.30753L5 1.66108L8.64645 5.30753C8.84171 5.50279 9.15829 5.50279 9.35355 5.30753C9.54882 5.11226 9.54882 4.79568 9.35355 4.60042L5.51069 0.757555C5.22864 0.47551 4.77136 0.475508 4.48931 0.757554L0.646447 4.60042C0.451184 4.79568 0.451184 5.11226 0.646447 5.30753Z" fill="currentColor" />
-                    </svg>
-                  </div>
-                  <span class="text-xs font-medium leading-5 text-gray-600 group-hover:text-gray-800">18</span>
-                </button>
+                <div class="flex flex-row w-full h-6 inlineManager place-content-start">
+                    <div class="flex flex-row w-full avatarStack space-x-[-7px] group">
+                        <img class="w-6 h-6 rounded-sm outline outline-2 first:outline-transparent outline-white"
+                            src="https://api.dicebear.com/5.x/initials/svg?seed=Courtney Palermo" alt="">
+                        <img class="w-6 h-6 rounded-sm outline outline-2 first:outline-transparent outline-white"
+                            src="https://api.dicebear.com/5.x/initials/svg?seed=Sid Mead" alt="">
+                    </div>
+                    <button
+                        class="transition-colors bg-white group w-fit py-[4px] px-3 h-6 border box-border flex flex-row items-center justify-center gap-1 rounded-[3px] border-gray-300 hover:border-gray-600">
+                        <div
+                            class="transition-transform rotate-180 w-[12px] h-[12px] text-gray-600 group-hover:text-gray-800 flex place-content-center place-items-center">
+                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.646447 5.30753C0.841709 5.50279 1.15829 5.50279 1.35355 5.30753L5 1.66108L8.64645 5.30753C8.84171 5.50279 9.15829 5.50279 9.35355 5.30753C9.54882 5.11226 9.54882 4.79568 9.35355 4.60042L5.51069 0.757555C5.22864 0.47551 4.77136 0.475508 4.48931 0.757554L0.646447 4.60042C0.451184 4.79568 0.451184 5.11226 0.646447 5.30753Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
+                        <span class="text-xs font-medium leading-5 text-gray-600 group-hover:text-gray-800">18</span>
+                    </button>
+                </div>
             </div>
-          </div>
         </div>
         <script src="utils.js"></script>
 </body>
